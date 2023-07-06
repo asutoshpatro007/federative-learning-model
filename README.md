@@ -3,6 +3,8 @@ implimentation of federative learning
 The federative learning model-
 The main functionality that is being represented in the model is the working function of federative learning, there by creating a server and also clients.
 As the federative learning model suggests the user privacy by training the model locally on the user part updating the global model, here we connect the server and client and the model calculating the accuracy-
+
+
 STEP BY STEP PROCEDURE
 The above part explains the procedural working of the code.for the the practical implementation-
 1.unzip the code file from the zip.
@@ -14,7 +16,9 @@ The above part explains the procedural working of the code.for the the practical
 7.now repeat the same procedure to connect another client ,with yet another command prompt and with same command line-python client1.py
 8.after connecting both the clients to the server the command prompt shows the calculated losses
 (for any issues or confusion pls refer the vedieo)
-Server part code:
+ 
+ 
+ Server part code:
 1.Importing the necessary modules:
 socket: This module provides low-level network communication capabilities.
 torch and torch.nn: These modules are part of PyTorch, usually used in deep learning framework.
